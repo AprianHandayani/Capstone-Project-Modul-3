@@ -25,7 +25,7 @@ Evaluasi metric yang akan digunakan adalah :
 | Model | Test R2 |	Test RMSE |	Test MAE |	Test MAPE |
 | --- | --- | --- | --- | --- |
 | Random Forest Before Tuning |	0.78342 |	47965.312352 |	38929.266181 |	0.1989 |
-| Random Forest | 0.784564 |	47838.45505 |	38735.30816 |	0.198424 |
+| Random Forest After Tuning | 0.784564 |	47838.45505 |	38735.30816 |	0.198424 |
 
 Metrik evaluasi yang digunakan pada model meliputi nilai R2, RMSE, MAE, dan MAPE. Berdasarkan nilai MAPE yang dihasilkan setelah tuning hyperparameter, yaitu sekitar 19.84%, dapat disimpulkan bahwa apabila model ini digunakan untuk memperkirakan harga apartemen di Daegu dalam rentang harga yang serupa dengan data pelatihan (maksimal harga 585,840 Won), maka estimasi harga rata-rata akan meleset sekitar 19.84% dari harga sebenarnya. 
 
