@@ -1,4 +1,4 @@
-# Prediksi Harga Apartemn di Kota Daegu Korea Selatan
+# Prediksi Harga Apartemen di Kota Daegu Korea Selatan
 
 # Business Problem Understanding
 ## Context
@@ -20,3 +20,12 @@ Evaluasi metric yang akan digunakan adalah :
 - MAPE : Mean Absolute Percentage Error. Mengukur kesalahan prediksi dalam bentuk persentase dari nilai aktual. Semakin kecil presentase MAPE semakin bagus juga hasilnya.
 - R-square : Menilai proporsi variansi dalam data harga yang dapat dijelaskan oleh model. Semakin nilai R-square mendekati 1 semakin bagus modelnya
 - K-fold cross validation juga digunakan sebagai metode evaluasi performa model yang dilakukan dengan membagi dataset menjadi 5 partisi yang sama besar lalu model akan dilatih pada 4 partisi dan diuji pada partisi yang tersisa. Prosedur ini akan dilakukan sebanyak 5 kali dengan partisi yang berbeda-beda sebagai data validasi dan data training sehingga akhirnya performa model akan dihitung berdasarkan rata-rata performa. Metode ini berguna untuk menghindari overfitting atau underfitting dan untuk mendapatkan generalisasi model yang lebih baik.
+
+# Hasil 
+| Model | Test R2 |	Test RMSE |	Test MAE |	Test MAPE |
+| --- | --- | --- | --- | --- |
+| Random Forest Before Tuning |	0.78342 |	47965.312352 |	38929.266181 |	0.1989 |
+| Random Forest | 0.784564 |	47838.45505 |	38735.30816 |	0.198424 |
+
+
+
